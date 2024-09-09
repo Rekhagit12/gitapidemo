@@ -1,0 +1,2866 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 1, 2024 01:33:21 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Tag1</a><a class="dropdown-item" href="#">@tag2</a><a class="dropdown-item" href="#">@Tag6</a><a class="dropdown-item" href="#">@del2</a><a class="dropdown-item" href="#">@delall3</a><a class="dropdown-item" href="#">@Edit3</a><a class="dropdown-item" href="#">@tag4</a><a class="dropdown-item" href="#">@Tag5</a><a class="dropdown-item" href="#">@Edit4</a><a class="dropdown-item" href="#">@Tag3</a><a class="dropdown-item" href="#">@Tag8</a><a class="dropdown-item" href="#">@Edit2</a><a class="dropdown-item" href="#">@delall2</a><a class="dropdown-item" href="#">@del1</a><a class="dropdown-item" href="#">@Edit1</a><a class="dropdown-item" href="#">@Tag7</a><a class="dropdown-item" href="#">@Batch</a><a class="dropdown-item" href="#">@tag3</a><a class="dropdown-item" href="#">@Edit5</a><a class="dropdown-item" href="#">@delall1</a><a class="dropdown-item" href="#">@Tag2</a><a class="dropdown-item" href="#">@Tag4</a><a class="dropdown-item" href="#">@tag1</a><a class="dropdown-item" href="#">@del3</a><a class="dropdown-item" href="#">@tag5</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add new Batch</p>
+            <p class="text-sm">
+              <span>1:33:23 AM</span> / <span>00:02:09:841</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add new Batch</h5>
+<span class='badge badge-success'>05.01.2024 1:33:23 AM</span>
+<span class='badge badge-danger'>05.01.2024 1:35:32 AM</span>
+<span class='badge badge-default'>00:02:09:841</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Check if the BatchDetails fields exist in pop</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+ A New Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_checks_a_new_pop_up_with_batchdetails_appears()">
+                <span>Given Admin checks a new pop up with Batchdetails appears</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_should_check_the_pop_up_should_include_the_name_and_description_as_text_box_program_name_as_drop_down_status_and_status_as_radio_button_number_of_classes_as_text_box()">
+                <span>Then Admin should check  the pop up should include the Name and Description as text box,Program Name as drop down Status and status as radio button Number of classes as text box</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Check if Batchdescription is optional field</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+ A New Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_checks_a_new_pop_up_with_batch_details_appears()">
+                <span>Given Admin checks a new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_is_able_to_fill_in_all_the_fields_except_description_with_valid_values_and_click_save()">
+                <span>When Admin is able to Fill in all the fields except description with valid values and click save</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.the_newly_added_batch_should_not_be_present_in_the_data_table_in_manage_batch_page()">
+                <span>Then The newly added batch should not be present in the data table in Manage Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Admin Check if the programBatch details are added in data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+ A New Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_checks_a_new_pop_up_with_batch_details_appears()">
+                <span>Given Admin checks a new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_is_fill_in_all_the_fields_with_valid_values_names_and_click_save()">
+                <span>When Admin is Fill in all the fields with valid values and click save</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.the_newly_added_batch_should_be_present_in_the_data_table_in_manage_batch_page()">
+                <span>Then The newly added batch should be present in the data table in Manage Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Check for error messages for invalid fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+ A New Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_checks_a_new_pop_up_with_batch_details_appears()">
+                <span>Given Admin checks a new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.check_if_any_of_the_fields_have_invalid_values()">
+                <span>When Check if any of the fields have invalid values</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.error_message_should_appear()">
+                <span>Then Error message should appear</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>Check for error messages for mandatory fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+ A New Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.admin_checks_a_new_pop_up_with_batch_details_appears()">
+                <span>Given Admin checks a new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.check_any_of_the_mandatory_fields_are_blank()">
+                <span>When Check any of the mandatory fields are blank</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.AddStep.error_message_should_display()">
+                <span>Then Error message should display</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Batch Page Validation</p>
+            <p class="text-sm">
+              <span>1:35:32 AM</span> / <span>00:03:13:599</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Batch Page Validation</h5>
+<span class='badge badge-success'>05.01.2024 1:35:32 AM</span>
+<span class='badge badge-danger'>05.01.2024 1:38:46 AM</span>
+<span class='badge badge-default'>00:03:13:599</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to landing in the  Batch page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_see_the_in_the_url(java.lang.String)">
+                <span>Then Admin should see the "Manage Batch" in the URL</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>Validate header in the BatchPage</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bars(java.lang.String)">
+                <span>When Admin clicks  "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_see_the_heading_in_the_header(java.lang.String)">
+                <span>Then Admin should see the "Manage Batch" heading  in the header</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="75"><span class="badge log pass-bg mr-2">Pass</span>Validate user able to do pagination in the Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bars(java.lang.String)">
+                <span>When Admin clicks  "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_see_the_pagination_controls_under_the_data_table()">
+                <span>Then Admin should see the pagination controls under the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="84"><span class="badge log pass-bg mr-2">Pass</span>Validate data table headers in the Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bars(java.lang.String)">
+                <span>When Admin clicks  "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_see_data_table_on_the_manage_batch_page_with_following_column_headers_batch_name_Batch_description_Batch_status_no_of_classes_program_name_edit_delete()">
+                <span>Then Admin should see data table on the Manage Batch Page with following column headers Batch Name, Batch Description, Batch Status,No. of classes,Program Name,Edit,Delete</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Validate admin able to see Delete button in Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bars(java.lang.String)">
+                <span>When Admin clicks  "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_be_able_to_see_the_icon_button_that_is_disabled(java.lang.String)">
+                <span>Then Admin should be able to see the "Delete" icon button that is disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="102"><span class="badge log pass-bg mr-2">Pass</span>Validate "+ A New batch" in Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bars(java.lang.String)">
+                <span>When Admin clicks  "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_be_able_to_see_the_button(java.lang.String)">
+                <span>Then Admin should be able to see the "+ A New batch" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="111"><span class="badge log pass-bg mr-2">Pass</span>Validate data rows</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bars(java.lang.String)">
+                <span>When Admin clicks  "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_should_check_each_row_in_the_data_table_should_have_a_checkbox_also_check_each_row_in_the_data_table_should_have_a_edit_icon_that_is_enabled_and_check_each_row_in_the_data_table_should_have_a_delete_icon_that_is_enabled()">
+                <span>Then Admin should check Each row in the data table should have a checkbox Also check Each row in the data table should have a edit icon that is enabled and check Each row in the data table should have a delete icon that is enabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="120"><span class="badge log pass-bg mr-2">Pass</span>Validate pop up for adding batch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+ A New Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_get_a_new_pop_up_with_batch_details_appears()">
+                <span>Then Admin get A new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="129"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Delet Batch</p>
+            <p class="text-sm">
+              <span>1:38:46 AM</span> / <span>00:01:35:232</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Delet Batch</h5>
+<span class='badge badge-success'>05.01.2024 1:38:46 AM</span>
+<span class='badge badge-danger'>05.01.2024 1:40:21 AM</span>
+<span class='badge badge-default'>00:01:35:232</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=129</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="130"><span class="badge log pass-bg mr-2">Pass</span>Validate row level delete icon</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.the_delete_icon_on_row_level_in_data_table_is_enabled()">
+                <span>Given The delete icon on row level in data table is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.admin_clicks_the_delete_icon()">
+                <span>When Admin clicks the delete icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.alert_appears_with_yes_and_no_option()">
+                <span>Then Alert appears with yes and No option</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="140"><span class="badge log pass-bg mr-2">Pass</span>Validate accept alert</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.admin_clicks_the_delete_icon()">
+                <span>Given Admin clicks the delete icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.you_click_yes_option()">
+                <span>When You click yes option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.batch_deleted_alert_pops_and_batch_is_no_more_available_in_data_table()">
+                <span>Then Batch deleted alert pops and batch is no more available in data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="150"><span class="badge log pass-bg mr-2">Pass</span>Validate reject alert</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.admin_clicks_the_delete_icon()">
+                <span>Given Admin clicks the delete icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.you_click_no_option()">
+                <span>When You click No option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteStep.batch_is_still_listed_in_the_data_table()">
+                <span>Then Batch is still listed in the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="160"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Delete Multiple Batches</p>
+            <p class="text-sm">
+              <span>1:40:21 AM</span> / <span>00:01:22:457</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Delete Multiple Batches</h5>
+<span class='badge badge-success'>05.01.2024 1:40:21 AM</span>
+<span class='badge badge-danger'>05.01.2024 1:41:44 AM</span>
+<span class='badge badge-default'>00:01:22:457</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=160</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="161"><span class="badge log pass-bg mr-2">Pass</span>Validate the delete icon that present below the header</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.no_checkboxes_in_the_datatable_are_selected()">
+                <span>Given No checkboxes in the datatable are selected</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.the_delete_icon_under_the_header_should_be_disabled(java.lang.String)">
+                <span>Then The delete icon under the "ManageBatch" header should be disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="170"><span class="badge log pass-bg mr-2">Pass</span>Check for the single row delete</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.select_one_of_the_checkbox_row()">
+                <span>Given select one of the checkbox/row</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.click_the_delete_icon_below_header(java.lang.String)">
+                <span>When Click the delete icon below "Manage Batch" header</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.the_respective_row_in_the_data_table_is_deleted()">
+                <span>Then The respective row in the data table is deleted</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="180"><span class="badge log pass-bg mr-2">Pass</span>Check for the multi row delete</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.two_or_more_checkboxes_row_is_selected()">
+                <span>Given Two or more checkboxes/row is selected</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.click_delete_icon_below_header(java.lang.String)">
+                <span>When Click delete icon below "Manage Batch" header</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.DeleteAllStep.the_respective_row_in_the_data_table_is_deleted()">
+                <span>Then The respective row in the data table is deleted</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="190"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Edit Batch</p>
+            <p class="text-sm">
+              <span>1:41:44 AM</span> / <span>00:03:04:033</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Edit Batch</h5>
+<span class='badge badge-success'>05.01.2024 1:41:44 AM</span>
+<span class='badge badge-danger'>05.01.2024 1:44:48 AM</span>
+<span class='badge badge-default'>00:03:04:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=190</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="191"><span class="badge log pass-bg mr-2">Pass</span>Admin Validate row level edit icon</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.check_edit_icon_on_row_level_in_data_table_is_enabled()">
+                <span>Given Check edit icon on row level in data table is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.admin_clicks_the_edit_icon()">
+                <span>Then Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.a_new_pop_up_with_batch_details_appears()">
+                <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="201"><span class="badge log pass-bg mr-2">Pass</span>Check if the fields are updated</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.admin_clicks_the_edit_icon()">
+                <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.update_the_fields_with_valid_and_click_save()">
+                <span>When Update the fields with valid and click save</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="210"><span class="badge log pass-bg mr-2">Pass</span>Check if the update throws error with invalid value</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.admin_clicks_the_edit_icon()">
+                <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.update_the_fields_with_invalid_values_and_click_save()">
+                <span>When Update the fields with invalid values and click save</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.error_message_should_display_in_the_invalid_fields()">
+                <span>Then Error message should display in the invalid fields</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="220"><span class="badge log pass-bg mr-2">Pass</span>Check if you get error message when mandatory fields are erased</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.admin_clicks_the_edit_icon()">
+                <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.erase_data_from_mandatory_field()">
+                <span>When Erase data from mandatory field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.error_message_should_appear_in_the_mandatory_field()">
+                <span>Then Error message should appear in the mandatory field</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="230"><span class="badge log pass-bg mr-2">Pass</span>Check if description field is optional in update</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.BatchStep.admin_clicks_from_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Batch" from navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.admin_clicks_the_edit_icon()">
+                <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.erase_data_from_description_field()">
+                <span>When Erase data from description field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.EditStep.updated_batch_details_should_on_the_data_table()">
+                <span>Then updated batch details should appear on the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="240"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Page Verification</p>
+            <p class="text-sm">
+              <span>1:44:48 AM</span> / <span>00:00:20:943</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Home Page Verification</h5>
+<span class='badge badge-success'>05.01.2024 1:44:48 AM</span>
+<span class='badge badge-danger'>05.01.2024 1:45:09 AM</span>
+<span class='badge badge-default'>00:00:20:943</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=240</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="241"><span class="badge log pass-bg mr-2">Pass</span>Validate login with valid credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">25</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:35:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Validate user is able to landing in the Batch page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate user is able to landing in the Batch page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:33:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Check if Batchdescription is optional field</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check if Batchdescription is optional field</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag6</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag6</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:37:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='102'>Validate "+ A New batch" in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate "+ A New batch" in Batch Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@del2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@del2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:39:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='129' id='140'>Validate accept alert</a>
+<div class="">
+<span class="badge badge-default">Delet Batch.Validate accept alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@delall3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@delall3</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='160' id='180'>Check for the multi row delete</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for the multi row delete</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Edit3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Edit3</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='210'>Check if the update throws error with invalid value</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if the update throws error with invalid value</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag4</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag4</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:34:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Check for error messages for invalid fields</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check for error messages for invalid fields</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag5</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag5</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:37:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='93'>Validate admin able to see Delete button in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate admin able to see Delete button in Batch Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Edit4</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Edit4</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:15 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='220'>Check if you get error message when mandatory fields are erased</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if you get error message when mandatory fields are erased</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag3</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:36:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='75'>Validate user able to do pagination in the Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate user able to do pagination in the Batch Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag8</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag8</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:38:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='120'>Validate pop up for adding batch</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate pop up for adding batch</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Edit2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Edit2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='201'>Check if the fields are updated</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if the fields are updated</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@delall2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@delall2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='160' id='170'>Check for the single row delete</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for the single row delete</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@del1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@del1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:38:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='129' id='130'>Validate row level delete icon</a>
+<div class="">
+<span class="badge badge-default">Delet Batch.Validate row level delete icon</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Edit1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Edit1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='191'>Admin Validate row level edit icon</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Admin Validate row level edit icon</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag7</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag7</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:37:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='111'>Validate data rows</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data rows</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>24</span>
+</span>
+<p class="name">@Batch</p>
+<p class="duration text-sm">24 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Batch</h4>
+<span status="pass" class='badge log pass-bg'>24 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:33:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Check if the BatchDetails fields exist in pop</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check if the BatchDetails fields exist in pop</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:33:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Check if Batchdescription is optional field</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check if Batchdescription is optional field</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:34:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>Admin Check if the programBatch details are added in data table</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Admin Check if the programBatch details are added in data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:34:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Check for error messages for invalid fields</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check for error messages for invalid fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:35:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Check for error messages for mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check for error messages for mandatory fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:35:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='57'>Validate user is able to landing in the Batch page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate user is able to landing in the Batch page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:35:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='66'>Validate header in the BatchPage</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate header in the BatchPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:36:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='75'>Validate user able to do pagination in the Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate user able to do pagination in the Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:36:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='84'>Validate data table headers in the Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data table headers in the Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:37:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='93'>Validate admin able to see Delete button in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate admin able to see Delete button in Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:37:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='102'>Validate "+ A New batch" in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate "+ A New batch" in Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:37:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='111'>Validate data rows</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data rows</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:38:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='120'>Validate pop up for adding batch</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate pop up for adding batch</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:38:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='129' id='130'>Validate row level delete icon</a>
+<div class="">
+<span class="badge badge-default">Delet Batch.Validate row level delete icon</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:39:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='129' id='140'>Validate accept alert</a>
+<div class="">
+<span class="badge badge-default">Delet Batch.Validate accept alert</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:39:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='129' id='150'>Validate reject alert</a>
+<div class="">
+<span class="badge badge-default">Delet Batch.Validate reject alert</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='160' id='161'>Validate the delete icon that present below the header</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Validate the delete icon that present below the header</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='160' id='170'>Check for the single row delete</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for the single row delete</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='160' id='180'>Check for the multi row delete</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for the multi row delete</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:41:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='191'>Admin Validate row level edit icon</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Admin Validate row level edit icon</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='201'>Check if the fields are updated</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if the fields are updated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:42:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='210'>Check if the update throws error with invalid value</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if the update throws error with invalid value</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:15 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='220'>Check if you get error message when mandatory fields are erased</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if you get error message when mandatory fields are erased</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='230'>Check if description field is optional in update</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if description field is optional in update</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag3</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:34:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>Admin Check if the programBatch details are added in data table</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Admin Check if the programBatch details are added in data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Edit5</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Edit5</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:43:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='190' id='230'>Check if description field is optional in update</a>
+<div class="">
+<span class="badge badge-default">Edit Batch.Check if description field is optional in update</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@delall1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@delall1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:40:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='160' id='161'>Validate the delete icon that present below the header</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Validate the delete icon that present below the header</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:35:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='66'>Validate header in the BatchPage</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate header in the BatchPage</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Tag4</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag4</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:36:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='56' id='84'>Validate data table headers in the Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data table headers in the Batch Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:33:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Check if the BatchDetails fields exist in pop</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check if the BatchDetails fields exist in pop</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@del3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@del3</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:39:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='129' id='150'>Validate reject alert</a>
+<div class="">
+<span class="badge badge-default">Delet Batch.Validate reject alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag5</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag5</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>01:35:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Check for error messages for mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Add new Batch.Check for error messages for mandatory fields</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 1, 2024 01:33:21 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 1, 2024 01:45:09 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>6</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>25</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>165</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Add new Batch":129.841,"Batch Page Validation":193.599,"Delet Batch":95.232,"Delete Multiple Batches":82.457,"Edit Batch":184.033,"Home Page Verification":20.943
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Tag1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@del2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@delall3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Edit3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag5</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Edit4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag8</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Edit2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@delall2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@del1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Edit1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag7</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Batch</td>
+<td>24</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Edit5</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@delall1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Tag4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@del3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag5</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 25,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 165,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
